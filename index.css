@@ -1,0 +1,42 @@
+
+@font-face {
+    font-family: sfpro;
+    src: url(fonts/sf-pro-text-regular.woff);
+}
+
+* {
+    font-family: sfpro;
+}
+
+body {
+    /* Set background color to black */
+    background-color: black;
+}
+
+#title {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.externlinks {
+    color: rgb(255,255,255);
+}
+
+[attribute="listentry"] {
+    color: hsl(0,100%,50%);
+}
+
+[attribute="listentry"]:hover {
+    color: #ffffff;
+}
+
+[attribute="listentry"]:active {
+    color: #00ff00;
+}
+
+h3, li, p, i, em, section, details, fieldset {
+    color: white;
+}
+
+/* TODO: combinators */
